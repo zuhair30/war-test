@@ -1,6 +1,6 @@
 FROM tomcat:8.0-alpine
 
-LABEL maintainer="zuhair30@gmail.com"
+LABEL maintainer="zuhar30@gmail.com"
 
 COPY /target/war-test.war $CATALINA_HOME/webapps/
 
